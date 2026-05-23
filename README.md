@@ -158,7 +158,7 @@ This dashboard enables organizations to:
 
 ---
 
-# 🙌 Conclusion
+#  Conclusion
 
 This project demonstrates the effective use of **Power BI**, **SQL Server**, and **DAX** to transform raw financial data into actionable insights and interactive business intelligence solutions.
 
