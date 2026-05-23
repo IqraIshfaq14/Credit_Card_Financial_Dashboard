@@ -1,76 +1,99 @@
-# 📊 Credit Card Financial Dashboard  
-**Power BI & SQL Analytics Project**
+# 📊 Credit Card Financial Dashboard
 
-An interactive business intelligence dashboard designed to analyze and monitor credit card operations, customer behavior, and financial performance metrics through dynamic visualizations and data-driven insights.
+## Power BI & SQL Analytics Project
 
----
-
-## 📝 Project Overview
-
-This project focuses on developing a comprehensive **Credit Card Financial Dashboard** using **SQL Server** and **Power BI**. The dashboard enables stakeholders to track weekly and year-to-date (YTD) performance metrics, identify business trends, and support strategic decision-making through interactive reporting.
-
-The solution combines data preparation, modeling, and visualization techniques to deliver meaningful insights into customer transactions, revenue generation, and portfolio performance.
+An interactive business intelligence dashboard developed using **Power BI**, **SQL Server**, and **DAX** to analyze credit card operations, customer behavior, and financial performance through dynamic visualizations and actionable insights.
 
 ---
 
-## 🎯 Project Objectives
+# 📝 Project Overview
 
-- Design a dynamic and interactive weekly financial dashboard.  
-- Monitor key business KPIs and portfolio performance metrics.  
-- Provide real-time visibility into customer and transaction trends.  
-- Enable data-driven decision-making through intuitive visualizations.  
-- Analyze operational performance across customer segments, card types, and geographic regions.  
+The **Credit Card Financial Dashboard** is a comprehensive analytics solution designed to monitor and evaluate key financial and operational metrics within a credit card business environment.
+
+This project provides stakeholders with real-time visibility into customer transactions, revenue generation, portfolio performance, and regional contributions. By integrating data preparation, data modeling, and visualization techniques, the dashboard transforms raw financial data into meaningful business intelligence that supports strategic decision-making.
 
 ---
 
-## 🗂️ Dataset & Data Source
+# 🎯 Project Objectives
 
-The dataset used in this project includes customer, transaction, and credit card-related financial data.
-
-📥 **Project Repository:**  
-<https://github.com/IqraIshfaq14/Credit_Card_Financial_Dashboard>
-
----
-
-## 🛠️ Technology Stack
-
-- **SQL Server** — Data cleaning, transformation, and storage  
-- **Power BI** — Dashboard development and data visualization  
-- **DAX** — KPI calculations and analytical measures  
-- **Excel / CSV Files** — Raw data sources  
+- Develop an interactive and dynamic financial dashboard  
+- Monitor weekly and year-to-date (YTD) business KPIs  
+- Analyze customer spending behavior and transaction trends  
+- Identify high-performing customer segments and card categories  
+- Enable data-driven decision-making through intuitive visualizations  
+- Provide regional and operational performance insights  
 
 ---
 
-## ⚙️ Project Workflow
+# 🗂️ Dataset & Data Source
 
-### 1. Data Preparation (SQL Server)
+The project uses customer, transaction, and credit card financial datasets containing operational and revenue-related information.
+
+## 📥 Project Repository
+
+```bash
+git clone https://github.com/IqraIshfaq14/Credit_Card_Financial_Dashboard.git
+```
+
+🔗 GitHub Repository:  
+https://github.com/IqraIshfaq14/Credit_Card_Financial_Dashboard
+
+---
+
+# 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| **SQL Server** | Data cleaning, transformation, and database management |
+| **Power BI** | Dashboard development and interactive visualizations |
+| **DAX** | KPI calculations and analytical measures |
+| **Excel / CSV** | Raw data sources |
+
+---
+
+# ⚙️ Project Workflow
+
+## 1️⃣ Data Preparation — SQL Server
+
 - Cleaned and validated raw CSV datasets  
-- Designed and created SQL database tables  
-- Imported transactional and customer data into SQL Server  
-- Performed data transformations and quality checks  
+- Designed relational database tables  
+- Imported customer and transaction data into SQL Server  
+- Performed data transformation and quality assurance checks  
 
-### 2. Data Modeling (Power BI)
+---
+
+## 2️⃣ Data Modeling — Power BI
+
 - Built relationships between fact and dimension tables  
 - Created calculated columns and DAX measures  
-- Developed KPIs and interactive filters  
-- Implemented drill-through and slicer functionality  
-
-### 3. Dashboard Development
-- Designed a professional and user-friendly dashboard interface  
-- Developed visualizations for:
-  - Revenue analysis  
-  - Customer segmentation  
-  - Transaction trends  
-  - Card category performance  
-  - Regional contribution analysis  
-- Optimized dashboard usability and interactivity  
+- Developed KPIs and interactive slicers  
+- Implemented drill-through and filtering functionality  
 
 ---
 
-## 📈 Key Business Insights — Week 53 (31st Dec)
+## 3️⃣ Dashboard Development
 
-### 🔄 Week-over-Week (WoW) Performance
-| Metric | Change |
+Designed a professional and user-friendly dashboard with interactive visualizations for:
+
+- Revenue analysis  
+- Customer segmentation  
+- Transaction trends  
+- Card category performance  
+- Regional revenue contribution analysis  
+
+Additional improvements include:
+
+- Enhanced dashboard usability  
+- Optimized report performance  
+- Interactive drill-down analysis  
+
+---
+
+# 📈 Key Business Insights — Week 53 (31st Dec)
+
+## 🔄 Week-over-Week (WoW) Performance
+
+| Metric | Growth |
 |---|---|
 | **Revenue** | ▲ 28.8% |
 | **Transaction Amount** | ▲ 1.69% |
@@ -78,7 +101,7 @@ The dataset used in this project includes customer, transaction, and credit card
 
 ---
 
-## 📊 Year-to-Date (YTD) Performance Overview
+# 📊 Year-to-Date (YTD) Performance Overview
 
 | KPI | Value |
 |---|---|
@@ -88,38 +111,66 @@ The dataset used in this project includes customer, transaction, and credit card
 | **Activation Rate** | 57.5% |
 | **Delinquency Rate** | 6.06% |
 
-### 👥 Customer Contribution
-- **Male Customers:** 31M  
-- **Female Customers:** 26M  
+---
 
-### 💳 Card Performance
-- **Blue and Silver cards** contributed approximately **93%** of total transactions.  
+# 👥 Customer Contribution
 
-### 🌎 Regional Analysis
-- **Texas (TX), New York (NY), and California (CA)** contributed nearly **68%** of total revenue.  
+| Customer Segment | Revenue Contribution |
+|---|---|
+| **Male Customers** | 31M |
+| **Female Customers** | 26M |
 
 ---
 
-## 📌 Dashboard Features
+# 💳 Card Category Performance
 
-- Interactive KPI monitoring  
-- Dynamic filtering and drill-down analysis  
-- Weekly and YTD performance tracking  
-- Customer demographic analysis  
-- Geographic revenue contribution insights  
-- Credit card category performance analysis  
+- **Blue** and **Silver** card categories contributed approximately **93%** of total transactions, making them the highest-performing card segments within the portfolio.
 
 ---
 
-## 🙌 Conclusion
+# 🌎 Regional Revenue Analysis
 
-This project demonstrates how business intelligence tools such as Power BI and SQL Server can be leveraged to transform raw financial data into actionable insights. The dashboard provides a scalable analytical solution for monitoring operational performance, customer behavior, and financial trends in the credit card industry.
+- **Texas (TX)**, **New York (NY)**, and **California (CA)** collectively contributed nearly **68%** of total revenue, highlighting these states as key revenue-generating regions.
 
 ---
 
-## 📬 Contact
+# 📌 Dashboard Features
 
-For questions, feedback, or collaboration opportunities:
+✅ Interactive KPI monitoring  
+✅ Weekly and YTD performance tracking  
+✅ Dynamic filtering and drill-down analysis  
+✅ Customer demographic insights  
+✅ Geographic revenue analysis  
+✅ Credit card category performance tracking  
+✅ Transaction and revenue trend visualization  
 
-- 📧 Email: iqra_ishfaq@outlook.com  
-- 💻 GitHub: <https://github.com/IqraIshfaq14>
+---
+
+# 🚀 Business Impact
+
+This dashboard enables organizations to:
+
+- Monitor operational and financial performance in real time  
+- Identify customer spending patterns and business trends  
+- Improve strategic decision-making using data-driven insights  
+- Enhance reporting efficiency and portfolio monitoring  
+- Support scalable business intelligence initiatives  
+
+---
+
+# 🙌 Conclusion
+
+This project demonstrates the effective use of **Power BI**, **SQL Server**, and **DAX** to transform raw financial data into actionable insights and interactive business intelligence solutions.
+
+The dashboard provides a scalable analytical framework for monitoring customer behavior, transaction activity, and overall financial performance in the credit card industry.
+
+---
+
+# 📬 Contact
+
+For questions, collaboration opportunities, or feedback:
+
+📧 Email: `iqra_ishfaq@outlook.com`
+
+💻 GitHub:  
+https://github.com/IqraIshfaq14
